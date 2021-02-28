@@ -109,7 +109,7 @@ metadata:
   namespace: prometheus
 subjects:
   - kind: ServiceAccount
-    name: kube-state-metric
+    name: kube-state-metrics
     namespace: prometheus
 roleRef:
   apiGroup: rbac.authorization.k8s.io
